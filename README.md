@@ -23,30 +23,31 @@ Votre compte courriel utilise l'authentification à deux facteurs (2FA), ce qui 
 ### 1.1 Se connecter au panneau mail
 
 1. Ouvrez votre navigateur et allez à : **https://mail.acadieintelligent.ca**
-2. En bas de la page de connexion, assurez-vous d'être sur **Connexion Utilisateur** (pas Administrateur)
-3. Entrez votre adresse courriel complète (ex : `contact@acadieintelligent.ca`) et votre mot de passe
+2. L'encadré doit indiquer **Connexion Utilisateur** en haut (pas Administrateur)
+3. Entrez votre adresse courriel complète (ex : `votrenom@acadieintelligent.ca`) et votre mot de passe habituel
 4. Complétez la vérification 2FA si demandée
 
 ![Connexion au panneau mail](images/1.png)
 
 ### 1.2 Générer le mot de passe d'application
 
-1. Une fois connecté, cliquez sur votre adresse courriel ou l'icône **Paramètres** (engrenage) en haut à droite
+1. Une fois connecté, ouvrez **https://mail.acadieintelligent.ca/user** (lien **Paramètres utilisateur** en haut).
+   Si le webmail s'ouvre à la place, allez simplement à cette adresse.
+2. Cliquez sur l'onglet **Mots de passe d'applications**
 
-![Interface après connexion](images/2.png)
+![Paramètres utilisateur, onglet Mots de passe d'applications](images/2.png)
 
-2. Allez dans **Mots de passe d'application** (peut aussi apparaître sous « Sécurité »)
-3. Cliquez sur **Ajouter un mot de passe d'application** ou **Générer**
+3. Cliquez sur **Créer un mot de passe application**
 
 ![Page des mots de passe d'application](images/3.png)
 
-4. Donnez-lui un nom : `Gmail Mobile` (c'est juste une étiquette pour vous y retrouver)
-5. Cliquez sur **Générer** ou **Enregistrer**
-6. Un mot de passe sera affiché — il ressemble à : `xK4m-R8pN-vW2q-hJ6t`
-7. **Copiez ce mot de passe immédiatement** — vous ne pourrez plus le voir après
+4. **Nom de l'application** : `Gmail Mobile` (c'est juste une étiquette pour vous y retrouver)
+5. Cliquez sur le lien **générer**, à côté de « Mot de passe » : un mot de passe solide remplit les deux champs
+6. **Copiez ce mot de passe immédiatement** : vous ne pourrez plus le voir après
+7. Laissez les protocoles cochés (au minimum **IMAP** et **SMTP**), puis cliquez sur **Ajouter**
 8. Gardez cette page ouverte ou collez le mot de passe en lieu sûr temporairement
 
-![Génération du mot de passe d'application](images/4.png)
+![Création du mot de passe d'application](images/4.png)
 
 ---
 
