@@ -1,3 +1,15 @@
+# Guides : courriel @acadieintelligent.ca et Nextcloud
+
+| Guide | Pour |
+|---|---|
+| **[Nextcloud](nextcloud.md)** (nouveau) | L'espace commun de l'équipe sur https://cloud.acadieintelligent.ca : documents, dossiers par projet, Word et Excel à plusieurs, courriel, agenda et contacts. Connexion avec votre courriel. |
+| **Courriel dans Gmail** (ci-dessous) | Votre adresse `@acadieintelligent.ca` dans Gmail, Apple Mail, Outlook ou Thunderbird. |
+
+Le webmail SOGo (`https://mail.acadieintelligent.ca/SOGo`) est remplacé peu à peu par l'application **Mail** de
+Nextcloud ([section 4 du guide Nextcloud](nextcloud.md#4-le-courriel-dans-nextcloud-application-mail)).
+
+---
+
 # Ajouter votre courriel @acadieintelligent.ca à Gmail
 
 Ce guide vous accompagne étape par étape pour connecter votre adresse courriel Acadie Intelligent à l'application Gmail sur votre téléphone, tablette ou ordinateur.
@@ -194,8 +206,10 @@ Serveur IMAP :              mail.acadieintelligent.ca
 Port IMAP :                 993 (SSL/TLS)
 Serveur SMTP :              mail.acadieintelligent.ca
 Port SMTP :                 587 (STARTTLS)
-Webmail :                   https://mail.acadieintelligent.ca/SOGo
+Webmail :                   https://cloud.acadieintelligent.ca/apps/mail (Nextcloud Mail)
+                            (ancien : https://mail.acadieintelligent.ca/SOGo, retiré peu à peu)
 Mots de passe d'application : https://mail.acadieintelligent.ca (connexion utilisateur → paramètres)
+Nextcloud :                 https://cloud.acadieintelligent.ca (bouton « Courriel Acadie Intelligent »)
 ```
 
 ---
